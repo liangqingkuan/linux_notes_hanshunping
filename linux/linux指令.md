@@ -1011,7 +1011,7 @@ HOST=localhost
 #数据库的用户名
 DB_USER=root
 #数据库的密码
-DB_PW=1a2b3t4R
+DB_PW=YOUR_PASSWORD
 #备份的数据库
 DATABASE=hspedu
 
@@ -1515,7 +1515,7 @@ dump -0j -f /opt/etc.bak.bz2 /etc/
 	`yum install -y perl-Digest-MD5 perl-Digest-SHA perl-Net-SSLeay` 
 	2.重新安装 Webmin
 	`rpm -ivh webmin-2.621-1.noarch.rpm`
-重置密码：`[root@hspEdu01 webmin]# /usr/libexec/webmin/changepass.pl /etc/webmin root 1a2b3t4R`
+重置密码：`[root@hspEdu01 webmin]# /usr/libexec/webmin/changepass.pl /etc/webmin root YOUR_PASSWORD`
 修改webmin的服务端口（==不必要，有可能连不上，用10000就行==）：
 `[root@hspEdu01 webmin]# vim /etc/webmin/miniserv.conf`
 `port=6666`
@@ -1539,10 +1539,11 @@ dump -0j -f /opt/etc.bak.bz2 /etc/
 ========================面板账户登录信息==========================
 
  【云服务器】请在安全组放行 29040 端口
- 外网ipv4面板地址: https://223.104.195.30:29040/819caa99
+ 外网ipv4面板地址: https://YOUR_SERVER_IP:29040/819caa99
  内网面板地址:     https://192.168.24.100:29040/819caa99
- username: 1gzvpxjz
- password: f5ec410f
+ username: YOUR_USERNAME
+ password: YOUR_PASSWORD
+ 
 
  浏览器访问以下链接，添加宝塔客服
  https://www.bt.cn/new/wechat_customer
