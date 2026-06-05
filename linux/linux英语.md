@@ -1,117 +1,117 @@
 # 一、关机重启
-sync=synchronization/ˌsɪŋkrənaɪ'zeɪʃ(ə)n/同步
-shutdown-h=halt
-shutdown-r=reboot
-shutdown-c=cancel
-shutdown-P=poweroff
+sync=synchronization/ˌsɪŋkrənaɪ'zeɪʃ(ə)n/同步  
+shutdown-h=halt  
+shutdown-r=reboot  
+shutdown-c=cancel  
+shutdown-P=poweroff  
 
 # 二、登录注销
-su=switch user
+su=switch user  
 
 # 三、用户管理
-useradd -d=directory
-useradd -g=group
-userdel -r=remove
-usermod=user modify
-passwd=password
-id=identity
+useradd -d=directory  
+useradd -g=group  
+userdel -r=remove  
+usermod=user modify  
+passwd=password  
+id=identity  
 
 # 四、运行级别
-init=initialization
-systemctl=sysytem control
-default用户缺失或省略选择时，系统默认的选择
+init=initialization  
+systemctl=sysytem control  
+default用户缺失或省略选择时，系统默认的选择  
 
 # 五、帮助
-man=manual
+man=manual  
 
 # 六、文件目录类
-pwd=print working directory
-ls=list
-ls -a=all
-ls -l=long
-ls -h=human-readable
-ls -R=recursive
-cd=change directory
-mkdir=make directory
-mkdir -v=verbose详细
-rmdri=remove diretory
-mkdir -p=parents
-cp=copy
-cp -r 或 cp -R=recursive
-rm -f=force
-cat=concatenate连接
-cat -n=number
-ln=link
-ln -s=symbolic
+pwd=print working directory  
+ls=list  
+ls -a=all  
+ls -l=long  
+ls -h=human-readable  
+ls -R=recursive  
+cd=change directory  
+mkdir=make directory  
+mkdir -v=verbose详细  
+rmdri=remove diretory  
+mkdir -p=parents  
+cp=copy  
+cp -r 或 cp -R=recursive  
+rm -f=force  
+cat=concatenate连接  
+cat -n=number  
+ln=link  
+ln -s=symbolic  
 # 七、时间日期指令
-cal=calendar
+cal=calendar  
 
 # 八、搜素查找类
-updatedb=update database
-grep=global regular expression print全局正则表达式打印
-grep -n=line number
-grep -i=ignore-case
-grep -r=recursive
-grpe -v=invert match反向匹配
-grep -l=files with match
-grep -c=count
-grep -w=word regexp
-grep -E=extended regexp
-grep -o=only-matching
+updatedb=update database  
+grep=global regular expression print全局正则表达式打印  
+grep -n=line number  
+grep -i=ignore-case  
+grep -r=recursive  
+grpe -v=invert match反向匹配  
+grep -l=files with match  
+grep -c=count  
+grep -w=word regexp  
+grep -E=extended regexp  
+grep -o=only-matching  
 
 
 # 九、压缩和解压缩类
-gzip =GUN zip
-gunzip=GUN unzip
-tar=tape archive磁带归档
-tar -c=create创建新的归档文件
-tar -x=extract从归档中提取文件
-tar -z=zip/gzip使用gzip压缩/解压
-tar -v=verbose显示处理过程
-tar -f=file指定归档文件名
-tar -C=change directory
+gzip =GUN zip  
+gunzip=GUN unzip  
+tar=tape archive磁带归档  
+tar -c=create创建新的归档文件  
+tar -x=extract从归档中提取文件  
+tar -z=zip/gzip使用gzip压缩/解压  
+tar -v=verbose显示处理过程  
+tar -f=file指定归档文件名  
+tar -C=change directory  
 
 # 十、组管理与权限管理
-chmod=change mode
+chmod=change mode  
 
 # 十一、定时任务调度
-crontab=cron table时间计划表
-crontab -e=edit
-crontab -l=list
-crontab -r=remove
-atq=at queue
-atrm =at remove
-at -m=mail
-at -l=list
-at -d=delete
-at -v=version
-at -c=concatenate
-at -q=queue
-at -f=file
-at -t=time
+crontab=cron table时间计划表  
+crontab -e=edit  
+crontab -l=list  
+crontab -r=remove  
+atq=at queue  
+atrm =at remove  
+at -m=mail  
+at -l=list  
+at -d=delete  
+at -v=version  
+at -c=concatenate  
+at -q=queue  
+at -f=file  
+at -t=time  
 
 # 十二、liunx磁盘分区、挂载
-lsblk=list block devices
-fdisk=format disk修改分区表（磁盘级）
-m=manual
-p=print
-n=new
-d=delete
-w=write
-q=quit
-mkfs=make filesystem格式化（分区级）
-mkfs -t=type
-/mnt=mount 挂载
-fstab=filesysytems table文件系统表
-df=disk free磁盘空闲空间
-du=disk usage磁盘使用情况
-du -s=summary
-yum=yellowdog updater, modified黄狗更新器改进版
+lsblk=list block devices  
+fdisk=format disk修改分区表（磁盘级）  
+m=manual  
+p=print  
+n=new  
+d=delete  
+w=write  
+q=quit  
+mkfs=make filesystem格式化（分区级）  
+mkfs -t=type  
+/mnt=mount 挂载  
+fstab=filesysytems table文件系统表  
+df=disk free磁盘空闲空间  
+du=disk usage磁盘使用情况  
+du -s=summary  
+yum=yellowdog updater, modified黄狗更新器改进版  
 
 # 十三、网络配置
-ipconfig=internet protocol configuration  IP地址配置
-ifconfifg=interface configuration网络接口配置
-ping=packet internet groper
+ipconfig=internet protocol configuration  IP地址配置  
+ifconfifg=interface configuration网络接口配置  
+ping=packet internet groper  
 
 
 # 十四、进程管理
@@ -166,12 +166,12 @@ ping=packet internet groper
 12. rpm -v=verbose提示
 # 十六、搭建javaEE环境
 
-mysql=My Structured Query Language结构化查询语言
+mysql=My Structured Query Language结构化查询语言  
 # 十七、Shell编程
-expr=expression
+expr=expression  
 # 十八、Ubuntu
 # 十九、APT软件管理和远程登录
-apt=Advanced Packaging Tool
+apt=Advanced Packaging Tool  
 # 二十、Centos8.1的使用
 # 二十一、高级篇--日志管理
 
@@ -194,13 +194,13 @@ apt=Advanced Packaging Tool
 15. dateext=date extension
 
 # 二十二、定制自己的linux系统
-grub=Grand Unified Bootloader大统一启动加载器
+grub=Grand Unified Bootloader大统一启动加载器  
 
 # 二十三、linux内核源码和内核升级
 
-wget=web get网络获取
-uname=Unix Name显示系统信息
-uname -a=all
+wget=web get网络获取    
+uname=Unix Name显示系统信息    
+uname -a=all    
 
 # 二十四、备份与恢复
 1. yum -y=yes
